@@ -10,13 +10,16 @@ class HomeViewController: UIViewController {
     private let dislikeButton = SelectionButton(image: .dislike)
     private let likeButton = SelectionButton(image: .like)
     
-    private let filterViewModel = FilterViewModel()
+    private let filterViewModel: FilterViewModel
     private let filterViewController: FilterViewController
     private let viewModel: HomeViewModel!
 
-    required init(viewModel: HomeViewModel) {
+    required init(viewModel: HomeViewModel,
+                  filterViewModel: FilterViewModel,
+                  filterViewController: FilterViewController) {
         self.viewModel = viewModel
-        self.filterViewController = FilterViewController(viewModel: filterViewModel)
+        self.filterViewModel = filterViewModel
+        self.filterViewController = filterViewController
         
         super.init(nibName: nil, bundle: nil)
     }

@@ -14,8 +14,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     private func setRootViewController() {
         let homeViewModel = HomeViewModel()
-        let filterViewController = FilterViewController(viewModel: FilterViewModel())
-        let homeViewController = HomeViewController(viewModel: homeViewModel)
+        let filterViewModel = FilterViewModel()
+        let filterViewController = FilterViewController(viewModel: filterViewModel)
+        let homeViewController = HomeViewController(viewModel: homeViewModel,
+                                                    filterViewModel: filterViewModel,
+                                                    filterViewController: filterViewController)
         window = UIWindow(frame: UIScreen.main.bounds)
         
         window?.makeKeyAndVisible()
