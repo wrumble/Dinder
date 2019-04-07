@@ -1,0 +1,25 @@
+//Alert
+"ok" = "OK";
+"error" = "Error";
+"generic_error_message" = "Something went wrong fetching from API";
+//Button
+"dislike" = "Dislike";
+"like" = "Like";
+//Home
+"title" = "Dinder";
+"loading" = "Loading";
+//Details
+"weight" = "Weight";
+"height" = "Height";
+"name" = "Name";
+"country_code" = "Country code";
+"breed_group" = "Breed group";
+"life_span" = "Life span";
+"temperament" = "Temperament";
+"origin" = "Origin";
+"no_details_available" = "We currently have no details available for this dog.\nSorry!";
+"cm" = "cm";
+"inches" = "inches";
+//Filter
+"all" = "All";
+"breed" = "Breed";
