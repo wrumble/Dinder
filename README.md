@@ -10,10 +10,12 @@ From here it a shouldn't be to hard to add implement state so that you could swi
 
 ## To run
 
-Install Xcode then:
+Download and Install Xcode then:
 
 `git clone git@github.com:wrumble/Dinder.git`
 
 `cd Dinder` 
 
 `open open DogTinder.xcodeproj`
+
+`press play button in top left corner`
