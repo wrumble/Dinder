@@ -8,6 +8,8 @@ The next step after this for me would have been to add swiping to vote for the d
 
 From here it a shouldn't be to hard to add implement state so that you could switch between the dog an cat API.
 
+I completely forgot about git control after creating the repo, this is not my normal way of working, im ashamed.
+
 ## To run
 
 Download and Install Xcode then:
