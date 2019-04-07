@@ -6,10 +6,14 @@ One main issue i ran out of time to debug is that the `loadingView` doesnt show 
 
 The next step after this for me would have been to add swiping to vote for the dogs which would require pagination and i didnt have time to implement this.
 
+From here it a shouldnt be to hard to add implement state so that you could switch between the dog an cat API.
+
 ## To run
 
 Install Xcode then:
 
 `git clone git@github.com:wrumble/Dinder.git`
+
 `cd Dinder` 
+
 `open open DogTinder.xcodeproj`
