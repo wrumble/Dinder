@@ -1,3 +1,5 @@
+This was a job coding challenge
+
 # Dinder
 
 So i decided to use a basic MVVM architecture. Now that i have finished the project, i can see that i should have made the voting buttons into their own ViewController/ViewModel like the Filter has. After having done this i would have created a viewless RootViewController/RootViewModel that controlled the Home, Filter and Button ViewControllers/Models but ive run out of time.
